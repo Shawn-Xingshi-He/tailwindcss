@@ -13,7 +13,7 @@ function Features() {
       "Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.",
     ],
   };
-  console.log(Object.keys(listItems));
+  // console.log(Object.keys(listItems));
   return (
     <section id="features">
       <div className="container flex flex-col px-4 mx-auto space-y-12 md:flex-row md:space-y-0">
@@ -30,7 +30,7 @@ function Features() {
 
         <div className="flex flex-col space-y-10 md:w-1/2 md:pl-2 md:pr-8">
           {Object.keys(listItems).map((key) => (
-            <div>
+            <div key={key}>
               <div className="flex items-baseline mb-2 space-x-4 rounded-full bg-brightRedSupLight md:bg-transparent">
                 <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
                   {key}

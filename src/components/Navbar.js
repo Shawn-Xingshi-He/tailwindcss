@@ -23,7 +23,7 @@ function Navbar() {
           href="."
           className="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:block"
         >
-          Get start
+          Get started
         </a>
       </div>
     </nav>
