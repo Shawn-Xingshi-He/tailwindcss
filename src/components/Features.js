@@ -16,7 +16,7 @@ function Features() {
   // console.log(Object.keys(listItems));
   return (
     <section id="features">
-      <div className="container flex flex-col px-4 mx-auto space-y-12 md:flex-row md:space-y-0">
+      <div className="container flex flex-col px-4 mx-auto space-y-12 md:flex-row md:space-y-0 md:space-x-2">
         <div className="flex flex-col items-center space-y-12 md:w-1/2">
           <div className="max-w-sm text-4xl font-bold text-center  md:text-left">
             What's the different about Manage

@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Testimonials />
       <Cta />
       <Footer />
+      <CopyRight />
     </>
   );
 }

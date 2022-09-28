@@ -25,6 +25,37 @@ function Navbar() {
         >
           Get started
         </a>
+        <button
+          id="menu-btn"
+          className="block hamburger md:hidden focus:outline-none"
+          onClick={(e) => {
+            const button = document.querySelector("#menu-btn");
+            const hiddenMenu = document.querySelector("#menu");
+            button.classList.toggle("open");
+            hiddenMenu.classList.toggle("flex");
+            hiddenMenu.classList.toggle("hidden");
+          }}
+        >
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div className="md:hidden">
+        <div
+          id="menu"
+          className="absolute flex-col hidden items-center py-6 mt-10 space-y-6 font-bold bg-white left-6 right-6 drop-shadow-md"
+        >
+          {menuItems.map((item) => (
+            <a
+              key={"menuItems-" + item}
+              className="hover:text-darkGrayishBlue"
+              href="."
+            >
+              {item}
+            </a>
+          ))}
+        </div>
       </div>
     </nav>
   );
