@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tailwindcss/static/css/main.4b41048d.css",
-    "main.js": "/tailwindcss/static/js/main.a8df5f76.js",
+    "main.js": "/tailwindcss/static/js/main.096b47f8.js",
     "static/js/787.9229db0a.chunk.js": "/tailwindcss/static/js/787.9229db0a.chunk.js",
     "static/media/avatar-ali.png": "/tailwindcss/static/media/avatar-ali.88f9155cb730934f4d7c.png",
     "static/media/illustration-intro.svg": "/tailwindcss/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
@@ -16,11 +16,11 @@
     "static/media/icon-facebook.svg": "/tailwindcss/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
     "static/media/bg-tablet-pattern.svg": "/tailwindcss/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
     "main.4b41048d.css.map": "/tailwindcss/static/css/main.4b41048d.css.map",
-    "main.a8df5f76.js.map": "/tailwindcss/static/js/main.a8df5f76.js.map",
+    "main.096b47f8.js.map": "/tailwindcss/static/js/main.096b47f8.js.map",
     "787.9229db0a.chunk.js.map": "/tailwindcss/static/js/787.9229db0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b41048d.css",
-    "static/js/main.a8df5f76.js"
+    "static/js/main.096b47f8.js"
   ]
 }
